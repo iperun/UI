@@ -1,0 +1,298 @@
+.w-layout-grid {
+  display: -ms-grid;
+  display: grid;
+  grid-auto-columns: 1fr;
+  -ms-grid-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+  -ms-grid-rows: auto auto;
+  grid-template-rows: auto auto;
+  grid-row-gap: 16px;
+  grid-column-gap: 16px;
+}
+
+.container {
+  margin: 16px auto;
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  -ms-grid-row-align: center;
+  align-self: center;
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+}
+
+.navbar {
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  right: 0%;
+  bottom: auto;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  overflow: visible;
+  padding-right: 20px;
+  padding-left: 20px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-align-content: center;
+  -ms-flex-line-pack: center;
+  align-content: center;
+  background-color: #fff;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#fff));
+  background-image: linear-gradient(180deg, #fff, #fff);
+  background-position: 0px 0px;
+  opacity: 0.98;
+}
+
+.image {
+  display: block;
+  padding-bottom: 1px;
+  border-radius: 2px;
+  background-color: hsla(0, 0%, 96%, 0.15);
+}
+
+.body {
+  overflow: visible;
+  background-color: #000;
+}
+
+.section {
+  position: relative;
+  left: 0%;
+  top: 0%;
+  right: 0%;
+  bottom: 0%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  overflow: hidden;
+  width: 100%;
+  background-color: #2c2c2c;
+  opacity: 1;
+}
+
+.image-16 {
+  display: block;
+  overflow: visible;
+  width: 100vw;
+  height: 2600px;
+  margin-top: -16%;
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  opacity: 1;
+}
+
+.div-block {
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  right: 0%;
+  bottom: 0%;
+  overflow: visible;
+  background-color: transparent;
+}
+
+.grid-2 {
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  right: 0%;
+  bottom: 0%;
+  overflow: visible;
+  justify-items: stretch;
+  -webkit-box-align: stretch;
+  -webkit-align-items: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
+  grid-column-gap: 0px;
+  -ms-grid-columns: 62% 1fr;
+  grid-template-columns: 62% 1fr;
+  -ms-grid-rows: auto auto auto auto auto auto;
+  grid-template-rows: auto auto auto auto auto auto;
+}
+
+.heading-2 {
+  position: static;
+  margin-top: 5%;
+  margin-right: -10%;
+  margin-left: 15%;
+  font-family: Vollkorn, serif;
+  color: #fff;
+  font-size: 112px;
+  line-height: 110px;
+  font-weight: 400;
+  text-align: left;
+  text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.28);
+}
+
+.image-18 {
+  margin-top: 5%;
+  margin-right: 15%;
+  background-color: hsla(0, 0%, 100%, 0.01);
+  opacity: 0.92;
+}
+
+.image-21 {
+  position: absolute;
+  left: 0%;
+  top: auto;
+  right: 0%;
+  bottom: -42%;
+  overflow: visible;
+  -webkit-align-self: flex-end;
+  -ms-flex-item-align: end;
+  align-self: flex-end;
+}
+
+.button {
+  margin-bottom: 15%;
+  margin-left: -20%;
+  padding-right: 0px;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #fff;
+  border-radius: 1px;
+  background-color: rgba(95, 95, 95, 0.05);
+  opacity: 0;
+  -webkit-transform: rotate(-90deg);
+  -ms-transform: rotate(-90deg);
+  transform: rotate(-90deg);
+  -webkit-transition: all 350ms cubic-bezier(.25, .46, .45, .94);
+  transition: all 350ms cubic-bezier(.25, .46, .45, .94);
+  font-family: Vollkorn, serif;
+  color: #fff;
+  font-size: 30px;
+  line-height: 30px;
+  font-weight: 400;
+  text-align: center;
+  letter-spacing: 12px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #2a7596;
+  text-shadow: none;
+}
+
+.div-block-2 {
+  overflow: visible;
+  width: 10px;
+  height: 10px;
+  -webkit-align-self: flex-end;
+  -ms-flex-item-align: end;
+  align-self: flex-end;
+  background-color: #f83636;
+}
+
+.section-2 {
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  right: 0%;
+  bottom: 0%;
+  z-index: 99;
+  display: block;
+  overflow: visible;
+  padding-bottom: 0px;
+  background-color: #000;
+}
+
+.div-block-3 {
+  overflow: visible;
+}
+
+.heading-3 {
+  margin-top: 101px;
+  opacity: 0;
+  font-family: Vollkorn, serif;
+  color: #ececec;
+  text-align: center;
+}
+
+.div-block-4 {
+  position: absolute;
+  left: 0%;
+  top: auto;
+  right: 0%;
+  bottom: 10%;
+}
+
+.text-span-2 {
+  -webkit-transition: all 200ms cubic-bezier(.25, .46, .45, .94);
+  transition: all 200ms cubic-bezier(.25, .46, .45, .94);
+  font-size: 30px;
+  line-height: 31px;
+  text-align: center;
+}
+
+.text-span-3 {
+  color: hsla(0, 0%, 92.7%, 0.43);
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  text-transform: lowercase;
+}
+
+#w-node-a9cd9f47f848-34ce005a {
+  -ms-grid-row-align: start;
+  align-self: start;
+  -ms-grid-column-align: center;
+  justify-self: center;
+  -ms-grid-row: 2;
+  grid-row-start: 2;
+  -ms-grid-row-span: 4;
+  grid-row-end: 6;
+  -ms-grid-column: 1;
+  grid-column-start: 1;
+  -ms-grid-column-span: 1;
+  grid-column-end: 2;
+}
+
+#w-node-882313617833-34ce005a {
+  -ms-grid-column: 2;
+  grid-column-start: 2;
+  -ms-grid-column-span: 1;
+  grid-column-end: 3;
+  -ms-grid-row: 2;
+  grid-row-start: 2;
+  -ms-grid-row-span: 4;
+  grid-row-end: 6;
+  -ms-grid-row-align: end;
+  align-self: end;
+  -ms-grid-column-align: start;
+  justify-self: start;
+}
+
+#w-node-52984c2e17bd-34ce005a {
+  -ms-grid-column: 2;
+  grid-column-start: 2;
+  -ms-grid-column-span: 1;
+  grid-column-end: 3;
+  -ms-grid-row: 2;
+  grid-row-start: 2;
+  -ms-grid-row-span: 1;
+  grid-row-end: 3;
+  -ms-grid-column-align: end;
+  justify-self: end;
+}
