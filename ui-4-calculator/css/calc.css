@@ -175,6 +175,7 @@
 }
 
 .buttons {
+  color: #ffffffa8;
   display: block;
   height: 468px;
   -webkit-align-self: flex-start;
@@ -184,7 +185,7 @@
   -webkit-flex: 0 0 auto;
   -ms-flex: 0 0 auto;
   flex: 0 0 auto;
-  background-color: #e93030;
+  background-color: transparent;
 }
 
 .menu-button {
@@ -259,8 +260,8 @@
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  margin-top: 20px;
-  margin-bottom: 10px;
+  margin-top: 10px;
+  margin-bottom: 20px;
   margin-left: 20px;
   margin-right: 20px;
   -webkit-box-pack: justify;
@@ -275,29 +276,29 @@
 
 .plus {
   display: inline-block;
-  background-color: #aaa;
+  background-color: transparent;
 }
 
 .times {
   display: inline-block;
-  background-color: #505050;
+  background-color: transparent;
 }
 
 .minus {
   display: inline-block;
-  background-color: #6d6d6d;
+  background-color: transparent;
 }
 
 .divide {
   display: inline-block;
-  background-color: #303030;
+  background-color: transparent;
 }
 
 .leftpanel {
   display: block;
   width: 257px;
   height: 384px;
-  margin-top: 34px;
+  margin-top: 48px;
   margin-left: 8px;
   -webkit-box-pack: start;
   -webkit-justify-content: flex-start;
@@ -307,7 +308,7 @@
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
-  background-color: #4a864e;
+  background-color: transparent;
 }
 
 .numbers {
@@ -399,8 +400,8 @@
   bottom: auto;
   display: inline-block;
   width: 76px;
-  height: 384px;
-  margin-top: 24px;
+  height: 380px;
+  margin-top: 28px;
   margin-left: auto;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
