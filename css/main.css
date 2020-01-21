@@ -31,17 +31,11 @@
   background-color: transparent;
 }
 
-.navbar {
-  position: relative;
-  left: 0%;
-  top: 0%;
-  right: 0%;
-  bottom: auto;
+.navi {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  overflow: visible;
   padding-right: 20px;
   padding-left: 20px;
   -webkit-box-orient: vertical;
@@ -66,15 +60,12 @@
   -webkit-align-self: stretch;
   -ms-flex-item-align: stretch;
   align-self: stretch;
-  -webkit-box-flex: 0;
-  -webkit-flex: 0 auto;
-  -ms-flex: 0 auto;
-  flex: 0 auto;
   background-color: #fff;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#fff), to(hsla(0, 0%, 100%, 0.3))), -webkit-gradient(linear, left top, left bottom, from(hsla(0, 0%, 100%, 0.4)), to(hsla(0, 0%, 100%, 0.4))), url('../images/texture.svg');
-  background-image: linear-gradient(180deg, #fff, hsla(0, 0%, 100%, 0.3)), linear-gradient(180deg, hsla(0, 0%, 100%, 0.4), hsla(0, 0%, 100%, 0.4)), url('../images/texture.svg');
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#fff), to(hsla(0, 0%, 100%, 0))), -webkit-gradient(linear, left top, left bottom, from(hsla(0, 0%, 100%, 0.4)), to(hsla(0, 0%, 100%, 0.4))), url('../images/texture.svg');
+  background-image: linear-gradient(180deg, #fff, hsla(0, 0%, 100%, 0)), linear-gradient(180deg, hsla(0, 0%, 100%, 0.4), hsla(0, 0%, 100%, 0.4)), url('../images/texture.svg');
   background-position: 0px 0px, 0px 0px, 50% 50%;
   background-size: auto, auto, auto;
+  background-attachment: scroll, scroll, scroll;
   opacity: 0.98;
 }
 
@@ -190,7 +181,8 @@
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  margin-top: 86px;
+  margin-top: 126px;
+  padding-bottom: 34px;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -webkit-flex-direction: column;
@@ -245,7 +237,7 @@
 .div-block {
   display: -ms-grid;
   display: grid;
-  margin-top: 130px;
+  margin-top: 142px;
   margin-right: 10%;
   margin-left: 10%;
   justify-items: stretch;
@@ -307,7 +299,7 @@
 
 .main {
   width: 100%;
-  margin-top: 60px;
+  margin-top: 0;
   margin-bottom: 80px;
   padding-bottom: 40px;
   -webkit-align-self: stretch;
