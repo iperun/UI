@@ -131,4 +131,9 @@ h1 {
   .img_hover {
     margin-bottom: 30px;
   }
+
+  .main {
+    margin-bottom: 5px !important;
+    margin-top: 2px !important;
+  }
 }
