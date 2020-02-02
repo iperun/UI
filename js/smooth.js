@@ -39,8 +39,8 @@ if (!isMobile()) {
 
     function render() {
         // We calculate our container position by using our Linear Interpolation method.
-        dx = lerp(dx, sx, 0.04);
-        dy = lerp(dy, sy, 0.05);
+        dx = lerp(dx, sx, 0.08);
+        dy = lerp(dy, sy, 0.08);
         dx = Math.floor(dx * 100) / 100;
         dy = Math.floor(dy * 100) / 100;
         // Finally we translate our container to its new positions.
