@@ -476,7 +476,10 @@ img {
   }
   .image-wrapper {
     left: auto;
-    width: 90vw;
+    width: 100%;
+    grid-template-columns: 0.15fr 1.2fr;
+    background-image: none;
+    height: 100%;
   }
   .submit-button {
     margin-left: 22px;
