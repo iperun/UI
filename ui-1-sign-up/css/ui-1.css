@@ -328,11 +328,12 @@ img {
   display: block;
   margin-left: 64px;
   border-radius: 55%;
-  background-color: #3e3c3b;
+  background-color: #e91e634d;
   font-family: Exo, sans-serif;
-  font-size: 22px;
-  line-height: 32px;
+  font-size: 30px;
+  line-height: 30px;
   text-align: left;
+  color: #333;
 }
 
 .container {

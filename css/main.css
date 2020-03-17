@@ -3,6 +3,7 @@
 }
 
 ::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.5);;
   -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.5);
   border-radius: 10px;
 }
@@ -10,6 +11,7 @@
 ::-webkit-scrollbar-thumb {
   border-radius: 10px;
   -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.8);
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.8);;
 }
 
 ::-webkit-scrollbar-corner {
@@ -25,7 +27,6 @@
   -ms-grid-row-align: center;
   align-self: center;
   -webkit-box-flex: 0;
-  -webkit-flex: 0 0 auto;
   -ms-flex: 0 0 auto;
   flex: 0 0 auto;
   background-color: transparent;
@@ -33,36 +34,30 @@
 
 .navi {
   display: -webkit-box;
-  display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
   padding-right: 20px;
   padding-left: 20px;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -webkit-flex-direction: column;
   -ms-flex-direction: column;
   flex-direction: column;
   -webkit-box-pack: center;
-  -webkit-justify-content: center;
   -ms-flex-pack: center;
   justify-content: center;
-  -webkit-flex-wrap: wrap;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
   -webkit-box-align: center;
-  -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
-  -webkit-align-content: center;
   -ms-flex-line-pack: center;
   align-content: center;
   -webkit-align-self: stretch;
   -ms-flex-item-align: stretch;
   align-self: stretch;
   background-color: #f8f8f8;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#fcfcfc00), to(hsla(0, 0%, 99%, 0.83))), -webkit-gradient(linear, left top, left bottom, from(hsla(0, 0%, 99%, 0.68)), to(hsl(0, 0%, 99%))), url(../images/texture.svg);
   background-image: -o-linear-gradient(top, #fcfcfc00, hsla(0, 0%, 99%, 0.83)), -o-linear-gradient(top, hsla(0, 0%, 99%, 0.68), hsl(0, 0%, 99%)), url(../images/texture.svg);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#fcfcfc00), to(hsla(0, 0%, 99%, 0.83))), -webkit-gradient(linear, left top, left bottom, from(hsla(0, 0%, 99%, 0.68)), to(hsl(0, 0%, 99%))), url(../images/texture.svg);
   background-image: linear-gradient(180deg, #fcfcfc00, hsla(0, 0%, 99%, 0.83)), linear-gradient(180deg, hsla(0, 0%, 99%, 0.68), hsl(0, 0%, 99%)), url(../images/texture.svg);
   background-position: 0px 0px, 0px 0px, 50% 50%;
   background-size: auto, auto, auto;
@@ -79,35 +74,30 @@
 
 .body {
   display: -webkit-box;
-  display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
   overflow: visible;
   padding-bottom: 20px;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -webkit-flex-direction: column;
   -ms-flex-direction: column;
   flex-direction: column;
   -webkit-box-pack: start;
-  -webkit-justify-content: flex-start;
   -ms-flex-pack: start;
   justify-content: flex-start;
   -webkit-box-align: stretch;
-  -webkit-align-items: stretch;
   -ms-flex-align: stretch;
   align-items: stretch;
   background-color: #f8f8f8;
   font-family: Montserrat, sans-serif;
-  background: radial-gradient(circle at 77% 66%, hsla(39, 0%, 85%, 0.05) 0%, hsla(39, 0%, 85%, 0.05) 9%, transparent 9%, transparent 43%, transparent 43%, transparent 100%), radial-gradient(circle at 6% 56%, hsla(39, 0%, 85%, 0.05) 0%, hsla(39, 0%, 85%, 0.05) 20%, transparent 20%, transparent 56%, transparent 56%, transparent 100%), radial-gradient(circle at 48% 45%, hsla(39, 0%, 85%, 0.05) 0%, hsla(39, 0%, 85%, 0.05) 15%, transparent 15%, transparent 85%, transparent 85%, transparent 100%), radial-gradient(circle at 89% 6%, hsla(39, 0%, 85%, 0.05) 0%, hsla(39, 0%, 85%, 0.05) 5%, transparent 5%, transparent 32%, transparent 32%, transparent 100%), radial-gradient(circle at 71% 38%, hsla(39, 0%, 85%, 0.05) 0%, hsla(39, 0%, 85%, 0.05) 14%, transparent 14%, transparent 21%, transparent 21%, transparent 100%), radial-gradient(circle at 84% 78%, hsla(39, 0%, 85%, 0.05) 0%, hsla(39, 0%, 85%, 0.05) 11%, transparent 11%, transparent 85%, transparent 85%, transparent 100%), radial-gradient(circle at 92% 72%, hsla(39, 0%, 85%, 0.05) 0%, hsla(39, 0%, 85%, 0.05) 42%, transparent 42%, transparent 51%, transparent 51%, transparent 100%), radial-gradient(circle at 73% 95%, hsla(39, 0%, 85%, 0.05) 0%, hsla(39, 0%, 85%, 0.05) 48%, transparent 48%, transparent 63%, transparent 63%, transparent 100%), radial-gradient(circle at 29% 29%, hsla(39, 0%, 85%, 0.05) 0%, hsla(39, 0%, 85%, 0.05) 24%, transparent 24%, transparent 73%, transparent 73%, transparent 100%), -webkit-gradient(linear, left top, right top, from(hsl(147, 0%, 99%)), to(hsl(147, 0%, 99%)));
   background: -o-radial-gradient(77% 66%, circle, hsla(39, 0%, 85%, 0.05) 0%, hsla(39, 0%, 85%, 0.05) 9%, transparent 9%, transparent 43%, transparent 43%, transparent 100%), -o-radial-gradient(6% 56%, circle, hsla(39, 0%, 85%, 0.05) 0%, hsla(39, 0%, 85%, 0.05) 20%, transparent 20%, transparent 56%, transparent 56%, transparent 100%), -o-radial-gradient(48% 45%, circle, hsla(39, 0%, 85%, 0.05) 0%, hsla(39, 0%, 85%, 0.05) 15%, transparent 15%, transparent 85%, transparent 85%, transparent 100%), -o-radial-gradient(89% 6%, circle, hsla(39, 0%, 85%, 0.05) 0%, hsla(39, 0%, 85%, 0.05) 5%, transparent 5%, transparent 32%, transparent 32%, transparent 100%), -o-radial-gradient(71% 38%, circle, hsla(39, 0%, 85%, 0.05) 0%, hsla(39, 0%, 85%, 0.05) 14%, transparent 14%, transparent 21%, transparent 21%, transparent 100%), -o-radial-gradient(84% 78%, circle, hsla(39, 0%, 85%, 0.05) 0%, hsla(39, 0%, 85%, 0.05) 11%, transparent 11%, transparent 85%, transparent 85%, transparent 100%), -o-radial-gradient(92% 72%, circle, hsla(39, 0%, 85%, 0.05) 0%, hsla(39, 0%, 85%, 0.05) 42%, transparent 42%, transparent 51%, transparent 51%, transparent 100%), -o-radial-gradient(73% 95%, circle, hsla(39, 0%, 85%, 0.05) 0%, hsla(39, 0%, 85%, 0.05) 48%, transparent 48%, transparent 63%, transparent 63%, transparent 100%), -o-radial-gradient(29% 29%, circle, hsla(39, 0%, 85%, 0.05) 0%, hsla(39, 0%, 85%, 0.05) 24%, transparent 24%, transparent 73%, transparent 73%, transparent 100%), -o-linear-gradient(left, hsl(147, 0%, 99%), hsl(147, 0%, 99%));
+  background: radial-gradient(circle at 77% 66%, hsla(39, 0%, 85%, 0.05) 0%, hsla(39, 0%, 85%, 0.05) 9%, transparent 9%, transparent 43%, transparent 43%, transparent 100%), radial-gradient(circle at 6% 56%, hsla(39, 0%, 85%, 0.05) 0%, hsla(39, 0%, 85%, 0.05) 20%, transparent 20%, transparent 56%, transparent 56%, transparent 100%), radial-gradient(circle at 48% 45%, hsla(39, 0%, 85%, 0.05) 0%, hsla(39, 0%, 85%, 0.05) 15%, transparent 15%, transparent 85%, transparent 85%, transparent 100%), radial-gradient(circle at 89% 6%, hsla(39, 0%, 85%, 0.05) 0%, hsla(39, 0%, 85%, 0.05) 5%, transparent 5%, transparent 32%, transparent 32%, transparent 100%), radial-gradient(circle at 71% 38%, hsla(39, 0%, 85%, 0.05) 0%, hsla(39, 0%, 85%, 0.05) 14%, transparent 14%, transparent 21%, transparent 21%, transparent 100%), radial-gradient(circle at 84% 78%, hsla(39, 0%, 85%, 0.05) 0%, hsla(39, 0%, 85%, 0.05) 11%, transparent 11%, transparent 85%, transparent 85%, transparent 100%), radial-gradient(circle at 92% 72%, hsla(39, 0%, 85%, 0.05) 0%, hsla(39, 0%, 85%, 0.05) 42%, transparent 42%, transparent 51%, transparent 51%, transparent 100%), radial-gradient(circle at 73% 95%, hsla(39, 0%, 85%, 0.05) 0%, hsla(39, 0%, 85%, 0.05) 48%, transparent 48%, transparent 63%, transparent 63%, transparent 100%), radial-gradient(circle at 29% 29%, hsla(39, 0%, 85%, 0.05) 0%, hsla(39, 0%, 85%, 0.05) 24%, transparent 24%, transparent 73%, transparent 73%, transparent 100%), -webkit-gradient(linear, left top, right top, from(hsl(147, 0%, 99%)), to(hsl(147, 0%, 99%)));
   background: radial-gradient(circle at 77% 66%, hsla(39, 0%, 85%, 0.05) 0%, hsla(39, 0%, 85%, 0.05) 9%, transparent 9%, transparent 43%, transparent 43%, transparent 100%), radial-gradient(circle at 6% 56%, hsla(39, 0%, 85%, 0.05) 0%, hsla(39, 0%, 85%, 0.05) 20%, transparent 20%, transparent 56%, transparent 56%, transparent 100%), radial-gradient(circle at 48% 45%, hsla(39, 0%, 85%, 0.05) 0%, hsla(39, 0%, 85%, 0.05) 15%, transparent 15%, transparent 85%, transparent 85%, transparent 100%), radial-gradient(circle at 89% 6%, hsla(39, 0%, 85%, 0.05) 0%, hsla(39, 0%, 85%, 0.05) 5%, transparent 5%, transparent 32%, transparent 32%, transparent 100%), radial-gradient(circle at 71% 38%, hsla(39, 0%, 85%, 0.05) 0%, hsla(39, 0%, 85%, 0.05) 14%, transparent 14%, transparent 21%, transparent 21%, transparent 100%), radial-gradient(circle at 84% 78%, hsla(39, 0%, 85%, 0.05) 0%, hsla(39, 0%, 85%, 0.05) 11%, transparent 11%, transparent 85%, transparent 85%, transparent 100%), radial-gradient(circle at 92% 72%, hsla(39, 0%, 85%, 0.05) 0%, hsla(39, 0%, 85%, 0.05) 42%, transparent 42%, transparent 51%, transparent 51%, transparent 100%), radial-gradient(circle at 73% 95%, hsla(39, 0%, 85%, 0.05) 0%, hsla(39, 0%, 85%, 0.05) 48%, transparent 48%, transparent 63%, transparent 63%, transparent 100%), radial-gradient(circle at 29% 29%, hsla(39, 0%, 85%, 0.05) 0%, hsla(39, 0%, 85%, 0.05) 24%, transparent 24%, transparent 73%, transparent 73%, transparent 100%), linear-gradient(90deg, hsl(147, 0%, 99%), hsl(147, 0%, 99%));
 }
 
 .section-2 {
   position: relative;
   display: -webkit-box;
-  display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
   margin-top: 4px;
@@ -117,30 +107,23 @@
   padding-left: 0px;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-  -webkit-flex-direction: row;
   -ms-flex-direction: row;
   flex-direction: row;
   -webkit-box-pack: center;
-  -webkit-justify-content: center;
   -ms-flex-pack: center;
   justify-content: center;
-  -webkit-flex-wrap: nowrap;
   -ms-flex-wrap: nowrap;
   flex-wrap: nowrap;
   -webkit-box-align: center;
-  -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
-  -webkit-align-content: flex-end;
   -ms-flex-line-pack: end;
   align-content: flex-end;
   align-self: stretch;
   -webkit-box-ordinal-group: 2;
-  -webkit-order: 1;
   -ms-flex-order: 1;
   order: 1;
   -webkit-box-flex: 0;
-  -webkit-flex: 0 0 auto;
   -ms-flex: 0 0 auto;
   flex: 0 0 auto;
   grid-auto-columns: 1fr;
@@ -168,6 +151,7 @@
   -ms-transform-origin: 40% 50%;
   transform-origin: 40% 50%;
   -webkit-transition: all 550ms cubic-bezier(.785, .135, .15, .86);
+  -o-transition: all 550ms cubic-bezier(.785, .135, .15, .86);
   transition: all 550ms cubic-bezier(.785, .135, .15, .86);
   color: #6b6b6b;
   text-decoration: underline;
@@ -182,33 +166,27 @@
 
 .container-2 {
   display: -webkit-box;
-  display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
   margin-top: 126px;
   padding-bottom: 34px;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -webkit-flex-direction: column;
   -ms-flex-direction: column;
   flex-direction: column;
   -webkit-box-pack: center;
-  -webkit-justify-content: center;
   -ms-flex-pack: center;
   justify-content: center;
   -webkit-box-align: center;
-  -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
   -webkit-align-self: center;
   -ms-flex-item-align: center;
   align-self: center;
   -webkit-box-ordinal-group: 2;
-  -webkit-order: 1;
   -ms-flex-order: 1;
   order: 1;
   -webkit-box-flex: 0;
-  -webkit-flex: 0 0 auto;
   -ms-flex: 0 0 auto;
   flex: 0 0 auto;
 }
@@ -247,17 +225,14 @@
   margin-left: 10%;
   justify-items: stretch;
   -webkit-box-align: stretch;
-  -webkit-align-items: stretch;
   -ms-flex-align: stretch;
   align-items: stretch;
   -ms-grid-row-align: stretch;
   align-self: stretch;
   -webkit-box-ordinal-group: 2;
-  -webkit-order: 1;
   -ms-flex-order: 1;
   order: 1;
   -webkit-box-flex: 0;
-  -webkit-flex: 0 0 auto;
   -ms-flex: 0 0 auto;
   flex: 0 0 auto;
   grid-auto-columns: 1fr;
@@ -277,7 +252,6 @@
   margin-top: 80px;
   margin-bottom: 26px;
   -webkit-box-ordinal-group: 2;
-  -webkit-order: 1;
   -ms-flex-order: 1;
   order: 1;
 }
@@ -289,17 +263,21 @@
 
 .img_hover {
   cursor: pointer;
-  box-shadow: 7px 9px 12px 0px #607d8b40;
+  -webkit-box-shadow: 7px 9px 12px 0px #607d8b40;
+          box-shadow: 7px 9px 12px 0px #607d8b40;
 }
 
 .img_hover {
   -webkit-transition: all 200ms linear;
+  -o-transition: all 200ms linear;
   transition: all 200ms linear;
   cursor: pointer;
 }
 
 .img_hover:hover {
   opacity: 0.88;
+  -webkit-transition: opacity .3s ease-in;
+  -o-transition: opacity .3s ease-in;
   transition: opacity .3s ease-in;
 }
 
@@ -313,7 +291,6 @@
   -ms-grid-row-align: stretch;
   align-self: stretch;
   -webkit-box-ordinal-group: 2;
-  -webkit-order: 1;
   -ms-flex-order: 1;
   order: 1;
 }
@@ -328,15 +305,12 @@
     display: grid;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-    -webkit-flex-direction: column;
     -ms-flex-direction: column;
     flex-direction: column;
     -webkit-box-pack: start;
-    -webkit-justify-content: flex-start;
     -ms-flex-pack: start;
     justify-content: flex-start;
     -webkit-box-align: center;
-    -webkit-align-items: center;
     -ms-flex-align: center;
     align-items: center;
     grid-auto-columns: 1fr;
@@ -362,7 +336,6 @@
     -ms-grid-row-align: stretch;
     align-self: stretch;
     -webkit-box-flex: 0;
-    -webkit-flex: 0 0 auto;
     -ms-flex: 0 0 auto;
     flex: 0 0 auto;
   }
@@ -399,18 +372,14 @@
     margin-left: 5%;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-    -webkit-flex-direction: column;
     -ms-flex-direction: column;
     flex-direction: column;
-    -webkit-justify-content: space-around;
     -ms-flex-pack: distribute;
     justify-content: space-around;
     justify-items: baseline;
     -webkit-box-align: stretch;
-    -webkit-align-items: stretch;
     -ms-flex-align: stretch;
     align-items: stretch;
-    -webkit-align-content: start;
     -ms-flex-line-pack: start;
     align-content: start;
     grid-auto-flow: row dense;
@@ -426,10 +395,12 @@
 
 #w-node-267041a5116a-693ace35 {
   -ms-grid-column: 1;
+  grid-column: 1;
   grid-column-start: 1;
   -ms-grid-column-span: 2;
   grid-column-end: 3;
   -ms-grid-row: 1;
+  grid-row: 1;
   grid-row-start: 1;
   -ms-grid-row-span: 1;
   grid-row-end: 2;
@@ -455,10 +426,12 @@
 
 #w-node-e42102798d76-693ace35 {
   -ms-grid-column: 2;
+  grid-column: 2;
   grid-column-start: 2;
   -ms-grid-column-span: 2;
   grid-column-end: 4;
   -ms-grid-row: 3;
+  grid-row: 3;
   grid-row-start: 3;
   -ms-grid-row-span: 1;
   grid-row-end: 4;
@@ -470,10 +443,12 @@
 
 #w-node-2efe1cdb8d6a-693ace35 {
   -ms-grid-column: 1;
+  grid-column: 1;
   grid-column-start: 1;
   -ms-grid-column-span: 2;
   grid-column-end: 3;
   -ms-grid-row: 5;
+  grid-row: 5;
   grid-row-start: 5;
   -ms-grid-row-span: 1;
   grid-row-end: 6;
@@ -499,10 +474,12 @@
 
 #w-node-795d4f0885ba-693ace35 {
   -ms-grid-column: 2;
+  grid-column: 2;
   grid-column-start: 2;
   -ms-grid-column-span: 2;
   grid-column-end: 4;
   -ms-grid-row: 7;
+  grid-row: 7;
   grid-row-start: 7;
   -ms-grid-row-span: 1;
   grid-row-end: 8;
@@ -514,10 +491,12 @@
 
 #w-node-e008d0ab759a-693ace35 {
   -ms-grid-column: 1;
+  grid-column: 1;
   grid-column-start: 1;
   -ms-grid-column-span: 2;
   grid-column-end: 3;
   -ms-grid-row: 9;
+  grid-row: 9;
   grid-row-start: 9;
   -ms-grid-row-span: 1;
   grid-row-end: 10;
@@ -543,10 +522,12 @@
 
 #w-node-8c9c451b2183-693ace35 {
   -ms-grid-column: 2;
+  grid-column: 2;
   grid-column-start: 2;
   -ms-grid-column-span: 2;
   grid-column-end: 4;
   -ms-grid-row: 11;
+  grid-row: 11;
   grid-row-start: 11;
   -ms-grid-row-span: 1;
   grid-row-end: 12;
@@ -558,10 +539,12 @@
 
 #w-node-9a4f40ee6cb3-693ace35 {
   -ms-grid-column: 1;
+  grid-column: 1;
   grid-column-start: 1;
   -ms-grid-column-span: 2;
   grid-column-end: 3;
   -ms-grid-row: 13;
+  grid-row: 13;
   grid-row-start: 13;
   -ms-grid-row-span: 1;
   grid-row-end: 14;
@@ -587,10 +570,12 @@
 
 #w-node-84aa307de155-693ace35 {
   -ms-grid-column: 2;
+  grid-column: 2;
   grid-column-start: 2;
   -ms-grid-column-span: 2;
   grid-column-end: 4;
   -ms-grid-row: 15;
+  grid-row: 15;
   grid-row-start: 15;
   -ms-grid-row-span: 1;
   grid-row-end: 16;
@@ -602,10 +587,12 @@
 
 #w-node-1eb19e44c6f1-693ace35 {
   -ms-grid-column: 1;
+  grid-column: 1;
   grid-column-start: 1;
   -ms-grid-column-span: 2;
   grid-column-end: 3;
   -ms-grid-row: 17;
+  grid-row: 17;
   grid-row-start: 17;
   -ms-grid-row-span: 1;
   grid-row-end: 18;
@@ -631,10 +618,12 @@
 
 #w-node-5d36abf058b8-693ace35 {
   -ms-grid-column: 2;
+  grid-column: 2;
   grid-column-start: 2;
   -ms-grid-column-span: 2;
   grid-column-end: 4;
   -ms-grid-row: 19;
+  grid-row: 19;
   grid-row-start: 19;
   -ms-grid-row-span: 1;
   grid-row-end: 20;
@@ -646,6 +635,7 @@
 
 #w-node-7dccad1759f7-693ace35 {
   -ms-grid-column: 1;
+  grid-column: 1;
   grid-column-start: 1;
   -ms-grid-column-span: 2;
   grid-column-end: 3;
