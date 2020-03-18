@@ -26,6 +26,11 @@ body {
   color: #333;
 }
 
+.image {
+  width: 86%;
+  margin: 0 auto;
+}
+
 img {
   width: 100%;
   vertical-align: middle;
@@ -127,6 +132,10 @@ h1 {
 @media screen and (max-width: 767px) {
   .w-nav-brand {
     padding-left: 10px;
+  }
+
+  .image {
+    width: 78%;
   }
 
   .big_images {
