@@ -93,9 +93,7 @@ h1 {
 }
 
 @media screen and (max-width: 767px) {
-  .w-nav-brand {
-    padding-left: 10px;
-  }
+
 }
 
 @media (min-width: 768px) {
@@ -130,12 +128,10 @@ h1 {
 }
 
 @media screen and (max-width: 767px) {
-  .w-nav-brand {
-    padding-left: 10px;
-  }
 
   .image {
     width: 78%;
+    padding-top: 14px;
   }
 
   .big_images {
