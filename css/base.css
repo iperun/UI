@@ -27,7 +27,7 @@ body {
 }
 
 img {
-  max-width: 100%;
+  width: 100%;
   vertical-align: middle;
   display: inline-block;
 }
@@ -127,6 +127,13 @@ h1 {
 @media screen and (max-width: 767px) {
   .w-nav-brand {
     padding-left: 10px;
+  }
+
+  .big_images {
+    margin-bottom: 30px;
+    cursor: pointer;
+    -webkit-box-shadow: 7px 9px 12px 0px #607d8b40;
+    box-shadow: 7px 9px 12px 0px #607d8b40;
   }
 
   .img_hover {
