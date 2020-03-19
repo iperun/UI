@@ -344,7 +344,7 @@ img {
   margin-left: 10px;
   grid-column-gap: 0px;
   grid-row-gap: 14px;
-  grid-template-areas: ". ." "Area Area";
+  grid-template-areas: ". .""Area Area";
   -ms-grid-columns: 96px 0px 253px;
   grid-template-columns: 96px 253px;
   -ms-grid-rows: 80px 14px auto 14px auto 14px auto 14px auto 14px auto 14px auto;
@@ -691,6 +691,11 @@ img {
   background-color: #fe9595;
 }
 
+.notification,
+.go_back {
+  display: none;
+}
+
 @media (max-width: 991px) {
   .preload-page {
     height: 100vh;
@@ -713,6 +718,7 @@ img {
     background-image: none;
     background-size: auto;
   }
+
   .social-media-wrapper {
     display: -webkit-box;
     display: -webkit-flex;
@@ -741,6 +747,7 @@ img {
     -ms-flex-align: center;
     align-items: center;
   }
+
   .social-media-wrapper {
     display: none;
   }
@@ -766,6 +773,26 @@ img {
     -ms-flex-align: center;
     align-items: center;
   }
+
+  .notification,
+  .go_back {
+    display: block;
+  }
+
+  .go_back {
+    width: 310px;
+    margin: 0 auto;
+  }
+
+  .notification {
+    margin-top: -60px;
+  }
+
+  .main_heading,
+  .main_button {
+    display: none;
+  }
+
 }
 
 #w-node-b5c1e8442918-ffce1aa0 {
