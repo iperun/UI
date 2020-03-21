@@ -1,12 +1,13 @@
-
 * {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
+
 html {
   height: 100%;
 }
+
 body {
   margin: 0;
   min-height: 100%;
@@ -16,11 +17,13 @@ body {
   line-height: 20px;
   color: #333;
 }
+
 img {
   max-width: 100%;
   vertical-align: middle;
   display: inline-block;
 }
+
 .w-button {
   display: inline-block;
   padding: 9px 15px;
@@ -32,26 +35,31 @@ img {
   cursor: pointer;
   border-radius: 0;
 }
+
 h1,
 h2 {
   font-weight: bold;
   margin-bottom: 10px;
 }
+
 h1 {
   font-size: 38px;
   line-height: 44px;
   margin-top: 20px;
 }
+
 h2 {
   font-size: 32px;
   line-height: 36px;
   margin-top: 20px;
 }
+
 .w-container {
   margin-left: auto;
   margin-right: auto;
   max-width: 940px;
 }
+
 .w-container:before,
 .w-container:after {
   content: " ";
@@ -61,24 +69,60 @@ h2 {
   grid-column-end: 2;
   grid-row-end: 2;
 }
+
 .w-container:after {
   clear: both;
 }
+
+#notification,
+#notif_text {
+  display: none;
+}
+
 @media screen and (max-width: 991px) {
   .w-container {
     max-width: 728px;
   }
 }
+
 @media screen and (max-width: 479px) {
   .w-container {
     max-width: none;
   }
+
+  #notification,
+  #notif_text {
+    display: block;
+  }
+
+  #notification {
+    width: 150%;
+    height: 200%;
+    position: absolute;
+    background: #3c3c3c;
+    z-index: 9999;
+    overflow: hidden;
+  }
+
+  #notif_text {
+    color: white;
+    padding: 40px;
+  }
+
+  .back_button {
+    padding: 40px;
+    font-size: 20px;
+    color: #fff;
+  }
+
 }
+
 @media screen and (max-width: 767px) {
   .w-nav-brand {
     padding-left: 10px;
   }
 }
+
 /**
  * ## Note
  * Safari (on both iOS and OS X) does not handle viewport units (vh, vw) well.
@@ -135,11 +179,13 @@ h2 {
 @media (min-width: 768px) {
   /* .w-lightbox-content */
 }
+
 .w-nav {
   position: relative;
   background: #dddddd;
   z-index: 1000;
 }
+
 .w-nav:before,
 .w-nav:after {
   content: " ";
@@ -149,15 +195,18 @@ h2 {
   grid-column-end: 2;
   grid-row-end: 2;
 }
+
 .w-nav:after {
   clear: both;
 }
+
 .w-nav-brand {
   position: relative;
   float: left;
   text-decoration: none;
   color: #333333;
 }
+
 @media screen and (max-width: 767px) {
   .w-nav-brand {
     padding-left: 10px;

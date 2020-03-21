@@ -38,6 +38,10 @@ img {
   display: inline-block;
 }
 
+.big_images {
+  height: 100%;
+}
+
 .w-button {
   display: inline-block;
   padding: 9px 15px;
