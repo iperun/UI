@@ -838,6 +838,10 @@ textarea.w-select {
         display: none;
     }
 
+    .input {
+        z-index: 99999;
+    }
+
     .cal-body {
         transform: none !important;
         height: 100% !important;
