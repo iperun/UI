@@ -95,6 +95,23 @@ h4 {
   }
 }
 
+.div-block,
+.div-block-3 {
+  transform: none !important;
+}
+
+.image-3 {
+  z-index: 9999;
+}
+
+.div-block-6,
+.div-block-7,
+.heading-4,
+.web_link,
+.img {
+  display: inline-block;
+}
+
 .div-block-6 {
   margin-top: 16%;
 }
