@@ -367,7 +367,13 @@
 }
 
 .image-3 {
-  z-index: 9999 !important;
+  z-index: 99999 !important;
+  position: relative;
+}
+
+#model-img {
+  z-index: 99998 !important;
+  position: relative;
 }
 
 .div-block-6,
@@ -379,7 +385,8 @@
 }
 
 .div-block-3 {
-  z-index: 9999 !important;
+  z-index: 99997 !important;
+  position: relative;
 }
 
 .div-block-6 {
