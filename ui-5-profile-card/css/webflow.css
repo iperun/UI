@@ -93,27 +93,27 @@ h4 {
   .w-container {
     max-width: none;
   }
-}
 
-.div-block,
-.div-block-3 {
-  transform: none !important;
-}
+  .div-block,
+  .div-block-3 {
+    transform: none !important;
+  }
 
-.image-3 {
-  z-index: 9999;
-}
+  .image-3 {
+    z-index: 9999 !important;
+  }
 
-.div-block-6,
-.div-block-7,
-.heading-4,
-.web_link,
-.img {
-  display: inline-block;
-}
+  .div-block-6,
+  .div-block-7,
+  .heading-4,
+  .web_link,
+  .img {
+    display: inline-block !important;
+  }
 
-.div-block-6 {
-  margin-top: 16%;
+  .div-block-6 {
+    margin-top: 16% !important;
+  }
 }
 
 @media screen and (max-width: 767px) {

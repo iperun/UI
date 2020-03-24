@@ -362,6 +362,26 @@
   text-decoration-color: #10c5f896;
 }
 
-.social_link:hover{
+.social_link:hover {
   cursor: pointer;
+}
+
+.image-3 {
+  z-index: 9999 !important;
+}
+
+.div-block-6,
+.div-block-7,
+.heading-4,
+.web_link,
+.img {
+  display: inline-block !important;
+}
+
+.div-block-3 {
+  z-index: 9999 !important;
+}
+
+.div-block-6 {
+  margin-top: 16% !important;
 }
